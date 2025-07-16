@@ -1,15 +1,10 @@
-Welcome to your new dbt project!
+# Northwind — Pipeline de Dados
 
-### Using the starter project
+Este projeto apresenta a criação de uma infraestrutura moderna de analytics baseada na base de dados pública, com foco em demonstrar o ciclo completo de um pipeline de dados.
 
-Try running the following commands:
-- dbt run
-- dbt test
+O desenvolvimento consiste em:
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- Extração dos dados de um banco de dados relacional (Northwind);
+- Carregamento em um Data Warehouse na nuvem (Snowflake); 
+- Transformação com o uso do dbt, onde foram aplicadas regras de negócio, modelagem e testes para garantir a qualidade dos dados;
+- Visualização em um dashboard desenvolvido no Power BI, traduzindo os dados em informações relevantes ao negócio.
